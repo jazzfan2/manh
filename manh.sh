@@ -3,7 +3,7 @@
 # Author: R.J.Toscani
 # Date  : 30-8-2023
 # Description:
-# Open man-page in no-snap Firefox browser (alternative for bash-functies 'hman' or 'man --html=firefox')
+# Open man-page in no-snap Firefox browser (alternative for bash-functions 'hman' or 'man --html=firefox')
 # Default source: (internal) man-page from own Ubuntu-installation (= system).
 # With options for various (external) alternative man-page sources on the Internet. To be extendible as desired.
 # Finds pages if existent at chosen source, even if command in question is not present on own system.
@@ -16,12 +16,12 @@
 #
 # Copyright (C) 2024 Rob Toscani <rob_toscani@yahoo.com>
 #
-# perpetualcalendar3a.sh is free software: you can redistribute it and/or modify
+# manh.sh is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# perpetualcalendar3a.sh is distributed in the hope that it will be useful,
+# manh.sh is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
