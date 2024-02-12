@@ -11,7 +11,7 @@ With options for various (external) alternative man-page sources on the Internet
 Finds pages if existent at chosen source, even if command in question is not present on own system.
 Outputs via Links or Lynx browser to terminal if opted for.
 
-# How to Use Your Project:
+# How to use manh:
 Usage:
 manh [-cdDhHlLmMu] name
 
