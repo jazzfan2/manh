@@ -1,4 +1,4 @@
-# Project’s Title
+# Name: manh
 manh - opens internal or external man-pages in no-snap Firefox or Lynx browser
 
 # Description:
