@@ -1,0 +1,80 @@
+./" Manpage for your_function
+.TH MANH 1 "03 March 2024" "0.0"
+.
+.
+.
+.SH NAME
+manh \(en opens internal or external manual page in a Firefox-, Lynx- or Links-browser.
+.
+.
+.
+.SH SYNOPSIS
+manh  [\fIoptions\fP]  [\fIcommand\fP]
+.
+.
+.
+.SH DESCRIPTION
+manh opens the manual page (man-page) of \fIcommand\fP in a Firefox-,
+Lynx- or Links- browser.
+It offers an alternative for hman(1) or the \fC--html=firefox\fP option of man(1).
+.LP
+The default browser is Firefox, as installed at /usr/bin/firefox.
+Additionally,
+manh offers options for using a non-graphical Links- or Lynx terminal browser instead.
+.LP
+The default source is the internal man-page of the given command,
+as present on the local installation at /usr/share/man and /usr/local/share/man.
+manh converts this page into an HTML file which is stored at /tmp/ramdisk/
+and opens this file into the browser.
+.LP
+As an alternative,
+manh offers options to view external man-pages present in various sources on the Internet,
+from where they are opened directly as HTML.
+This enables queries for commands and utilities not present on the own system.
+.LP
+.
+.
+.
+.SH OPTIONS
+anagrams.py takes the following options:
+.IP "\fB-h\fP"
+Help (this output)
+.IP "\fB-l\fP"
+Open output in Links instead of Firefox
+.IP "\fB-L\fP"
+Open output in Lynx instead of Firefox
+.IP "\fB-c\fP"
+Open external man page via https://man.cx/
+.IP "\fB-d\fP"
+Open external man page via https://linux.die.net
+.IP "\fB-D\fP"
+Open external man page via https://manpages.debian.org
+.IP "\fB-H\fP"
+Open external man page via man.he.net/
+.IP "\fB-m\fP"
+Open external man page via https://man7.org/linux/man-pages/
+.IP "\fB-M\fP"
+Open external man page via https://manpages.org
+.IP "\fB-u\fP"
+Open external man page via https://manpages.ubuntu.com/
+.
+.
+.
+.SH COMPATIBILITY
+The Firefox-browser must be present on the system in a version that is not installed
+as a so-called 'snap'.
+This in order to enable opening temporary HTML-files saved on the local file system.
+.
+.
+.SH BUGS
+If a snap-version Firefox is active simultaneously,
+"pkill firefox" may be necessary if Firefox hangs after a second call.
+.
+.
+.SH AUTHOR
+Written by Rob Toscani (rob_toscani@yahoo.com)
+.
+.
+.
+.SH REPORTING BUGS
+Please report any bugs to the author by e-mail or via https://github.com/jazzfan2/manh/issues
