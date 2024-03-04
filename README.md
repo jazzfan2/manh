@@ -29,5 +29,7 @@ Options:
 	-M     Open man page via https://manpages.org
 	-u     Open man page via https://manpages.ubuntu.com/
 
+For a detailed description see the man-page included in this repository.
+
 # Author:
 Written by Rob Toscani (rob_toscani@yahoo.com).
