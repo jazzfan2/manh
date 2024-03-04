@@ -1,10 +1,10 @@
 # Name: manh
-manh - opens internal or external manual page in - no-snap version - Firefox or Lynx browser
+manh - opens internal or external manual page in - no-snap version - Firefox, Lynx or Links browser
 
 # Description:
-This program opens a given internal or external manual page (man-page) in a - no-snap version - Firefox or Lynx browser (alternative for bash-functions 'hman' or 'man --html=firefox').
+This program opens a given internal or external manual page (man-page) in a - no-snap version - Firefox, Lynx or Links browser (alternative for bash-functions 'hman' or 'man --html=firefox').
 
-Default source: (internal) man-page from own Ubuntu-installation.
+Default source: (internal) man-page from own installation at /usr/share/man and /usr/local/share/man
 
 With options for various (external) alternative man-page sources on the Internet. To be extendible as desired.
 
